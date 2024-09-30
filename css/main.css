@@ -1,0 +1,145 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 36px;
+  background-color: antiquewhite;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 50px;
+}
+.nav-button {
+  display: none;
+}
+.nav-item {
+  padding: 0 4px 0 4px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link.active {
+  color: rgb(88, 91, 90);
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-top: 120px;
+}
+
+.header-title {
+  font-weight: 700;
+  color: black;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.header-conent p {
+  font-size: 14px;
+}
+
+.services {
+  padding: 90px 0;
+}
+
+.services-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  margin-bottom: 30px;
+  flex: 1 1 0;
+  min-width: 320px;
+}
+.service-card-img {
+  max-width: 100px;
+}
+.service-card-title {
+  font-weight: 600;
+}
+
+.contacts {
+  background: antiquewhite;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  margin-bottom: 40px;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  padding: 7px 22px;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(124, 124, 248);
+}
+
+.bth:active {
+  position: relative;
+  top: 1px;
+  background-color: black;
+}
+
+.contacts-social {
+  margin: auto;
+  width: 100px;
+  align-content: center;
+}
+
+.contacts-footer {
+  margin-top: 40px;
+}
